@@ -1,18 +1,28 @@
 *{
     box-sizing: border-box;
+   
+
 }
 
 body{
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: whitesmoke;
     font-size: 1rem;
+
 }
 
 h1{
     text-align: center;
+    font-size: 2rem;
 
+}
+h5{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 p{
@@ -25,19 +35,20 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    height: 70px;
+    
     
 }
 
 .header__logo{
     display: flex;
+    align-items: center;
+    
 }
 .header__tittle{
-    justify-content: center;
-    align-items: center;
-    margin-top: 36px;
-    margin-left: 10px;
-    font-size: px;
+    margin-top:21px;
     color: rgb(255, 255, 255);
+    margin-left: 30px;
 }
 .logo{
     height: 100px;
@@ -49,7 +60,7 @@ header{
 .header__list{
     list-style: none;
     display: flex;
-    margin-top: 36px;
+    align-items: center;
     margin-right: 30px;
 }
 
@@ -59,22 +70,24 @@ header{
     margin-left: 20px;
     font-size: 1rem;
 }
+
 li:hover{
-    color: gray;
-    transform: scale(1.1);
+    color: #ed7936;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.header__link:focus{
+    color: rgb(141, 21, 21);  
 }
 
 
 
 .container-slider{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
     overflow: hidden;
-    box-shadow:  0 0 0 10px #fff,
-                0 15px 50px black;
     position: relative;
-    margin-top: 50px;
 }
 
 
@@ -101,7 +114,6 @@ li:hover{
     position: absolute;
     width: 40px;
     height: 40px;
-    background-color: rgba(255,255,255, 0.7);
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
@@ -112,13 +124,36 @@ li:hover{
     cursor: pointer;
 }
 .slider__btn:hover{
-    color: white;
+    transition: 1s;
+    color:#ed7936;
+    transform: scale();
+
 }
 
 
 .slider__btn__right{
     right: 10px;
+    color: white;
 }
 .slider__btn__left{
     left: 10px;
+    color: white;
+
+}
+
+.container_preg--frecuentes{
+    display: flex;
+    margin: 50px 30px;
+}
+.preg_frecuentes{
+    width: 500px;
+    margin:0 20px ;
+}
+dt{
+    margin: 15px 10px;
+    font-size: 17px;
+    border-top: 1px solid rgba(128, 128, 128, 0.357);
+}
+dd{
+    font-size: 14px;
 }
