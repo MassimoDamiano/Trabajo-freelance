@@ -40,4 +40,4 @@ btnLeft.addEventListener("click", function(){
 
 setInterval(function(){
     Next();
-},3000);
+},3500);
