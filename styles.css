@@ -25,16 +25,12 @@ h5{
     font-size: 15px;
 }
 
-p{
-    max-width: 1200px;
-    text-align: center;
-    margin-top: 50px
-}
+
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+   
     height: 70px;
     
     
@@ -47,7 +43,7 @@ header{
 }
 .header__tittle{
     margin-top:21px;
-    color: rgb(255, 255, 255);
+    color: rgb(4, 4, 4);
     margin-left: 30px;
 }
 .logo{
@@ -66,7 +62,7 @@ header{
 
 .header__link{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(4, 3, 3);
     margin-left: 20px;
     font-size: 1rem;
 }
@@ -77,11 +73,10 @@ li:hover{
     transform: scale(1.05);
 }
 
-.header__link:focus{
-    color: rgb(141, 21, 21);  
+li:focus{
+    color: #ed7936;
+
 }
-
-
 
 .container-slider{
     width: 100%;
@@ -181,3 +176,52 @@ dd{
     font-size: 14px;
 }
 
+.container-fot{
+    background-color:rgb(4, 3, 3);
+    margin-top: 50px;
+    
+
+}
+.span{
+    color:white;
+    margin: 50px;
+  
+}
+a{
+    color: white;
+    
+}
+
+/*contacto y ubi*/
+
+.container-desc{
+    margin: 10px 50px;
+    display: flex;    
+
+}
+.text-desc{
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+iframe{
+    height: 300px;
+    
+}
+
+.container-form{
+    margin: 60px 50px;
+}
+h3{
+    font-size: 25px;
+    color: #993300
+}
+
+label{
+    display: block;
+}
+input{
+    width: 750px;
+    margin:15px 0;
+    height: 30px;
+}
